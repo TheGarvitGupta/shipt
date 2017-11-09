@@ -28,4 +28,5 @@ Website with my top projects: www.garvitgupta.com
 
 # Link to the hosted application.
 
-www.garvitgupta.com/shipt
+Host 1: https://thegarvitgupta.github.io/shipt/
+Host 2: www.garvitgupta.com/shipt
