@@ -1,0 +1,104 @@
+html, body {
+	background-color: #3F51B5;
+	font-family: Roboto;
+}
+
+.image {
+	height: 250px;
+	width: 250px;
+	background-color: #283593;
+	margin:	auto;
+	margin-top: 50px;
+	border-radius: 50%;
+	background-size: 250px;
+	background-position: center;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.input {
+	height: 50px;
+	font-family: Roboto;
+	font-size: 32px;
+	text-align: center;
+	background-color: transparent;
+	outline: none;
+	margin: auto;
+	margin-top: 32px;
+	display: block;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	border-bottom-width: 3px;
+	border-color: #ffffff;
+	color: #1A237E;
+	width: 300px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #1A237E;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #1A237E;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: pink;
+}
+#1A237E:-moz-placeholder { /* Firefox 18- */
+  color: #1A237E;
+}
+
+.followers {
+	margin: auto;
+	display: block;
+	margin-top: 20px;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.followers-list {
+	padding: 50px;
+}
+
+.follows {
+	height: 80px;
+	width: 80px;
+	background-position: center;
+	background-size: 80px;
+	border-radius: 50%;
+	margin: 15px;
+	float:left;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.loader {
+	background-color: #322295;
+	cursor: pointer;
+	background-image: url(plus.svg);
+	background-position: center;
+	background-size: 40px;
+	background-repeat: no-repeat;
+}
+
+.link {
+	color: #1A237E;
+	background-color: #ffffff;
+	border-radius: 2px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 18px;
+	padding:15px;
+	float: left;
+	margin-left: 15px;
+}
+
+.links {
+	padding:50px;
+	padding-top:25px;
+}
